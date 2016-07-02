@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var program = require('commander');
+var program = new require('commander');
 
 var package = require('./package.json');
 var phrases = require('./lib/phrases.js');
@@ -24,6 +24,9 @@ function processNoun(noun) {
         console.log(phrase);
     }
 }
+
+// Hack to set the commander name...pliz help someone!
+process.argv[1] = package.name;
 
 program
     .version(package.version)
