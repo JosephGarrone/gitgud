@@ -1,0 +1,36 @@
+{
+  "name": "gitgud",
+  "version": "1.0.0",
+  "description": "A gitgud accessibility tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Goodness: this here is already good!\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephGarrone/gitgud.git"
+  },
+  "keywords": [
+    "git",
+    "gitgud",
+    "gud",
+    "good",
+    "get",
+    "good"
+  ],
+  "author": "Joseph Garrone <josephgarrone+npm@gmail.com> (https://www.illogicalbit.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosephGarrone/gitgud/issues"
+  },
+  "homepage": "https://github.com/JosephGarrone/gitgud#readme",
+  "bin": {
+    "gitgud": "./index.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
